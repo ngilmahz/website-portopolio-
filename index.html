@@ -1,54 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portofolio | zahrotul ngilmah</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio zahrotul ngilmah</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(#fff9f0, #fff0db);
+      color: #3d2b1f;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header img {
+      width: 280px;
+      border-radius: 10px;
+    }
+
+    .intro {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .intro h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .intro p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #a67c52;
+      display: inline-block;
+    }
+
+    .edu-skill {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .edu, .skill {
+      width: 45%;
+    }
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .copy-section {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .copy-box {
+      width: 30%;
+      text-align: center;
+    }
+
+    .copy-box img {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">LOGO</div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <div class="lang-switch">
-        <a href="#">FRA</a>
-        <a href="#">GER</a>
-        <a class="active" href="#">ENG</a>
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+      <img src="c:\Users\SWK-04\Desktop\pngtree-a-woman-in-formal-clothes-smiles-and-makes-a-welcoming-gesture-png-image_15040998 (1).avif" alt="Foto Rachel" />
+      <div class="intro">
+        <h1>zahrotul ngilmah</h1>
+        <p>Seorang pelajar SMKS Pangeran Wijaya Kusuma. Mempunyai pengalaman PKL sebagai Host live di PT ACC komputer dan desaign di PT Percetakan.</p>
       </div>
-    </nav>
-  </header>
+    </div>
 
-  <section class="hero">
-    <div class="hero-text">
-      <span class="small-text">— HELLO</span>
-      <h1>I’m <span class="highlight">zahrotul</span> ngilmah</h1>
-      <p>This is zahrotul ngilmah: visual designer, photographer, web developer and creative director based in United States, looking for working around the globe.</p>
-      <a href="#" class="btn">Download CV</a>
-    </div>
-    <div class="hero-image">
-      <img src="profile.png" alt="Profile Photo">
-    </div>
-  </section>
+    <!-- PENDIDIKAN & KEAHLIAN -->
+    <div class="section edu-skill">
+      <div class="edu">
+        <h2>Pendidikan</h2>
+        <ul>
+          <li><strong>SMKS Pangeran Wijaya Kusuma</strong> – Rekayasa Perangkat Lunak</li>
+        </ul>
+      </div>
 
-  <footer>
-    <div class="social-icons">
-      <a href="#">📷</a>
-      <a href="#">🐦</a>
-      <a href="#">💼</a>
-      <a href="#">📧</a>
+      <div class="skill">
+        <h2>Keahlian</h2>
+        <ul>
+          <li>mampu berkerja sama dengan tim</li>
+          <li>Membuat ide baru</li>
+          <li>Mendaur ulang ide lama</li>
+          <li>Dapat menggunakan Canva, dan Word.</li>
+        </ul>
+      </div>
     </div>
-  </footer>
+
+    <footer>
+      &copy; 2025 Rachel Aprillia. All rights reserved.
+    </footer>
+  </div>
 </body>
 </html>
-
